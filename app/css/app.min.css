@@ -135,6 +135,7 @@ table {
 }
 .aside {
   position: absolute;
+  z-index: 2;
   left: 0;
   top: 0;
   height: 100vh;
@@ -204,6 +205,66 @@ table {
   fill: currentColor;
   fill-opacity: .6
 }
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 50px 0
+}
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+.header__phone {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  font-family: "Open Sans Condensed",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: #fff;
+  border-bottom: #d1a954 solid 2px
+}
+.menu {
+  width: 825px;
+  max-width: 824px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+.menu__link {
+  text-decoration: none;
+  font-family: "Open Sans Condensed",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: color .3s ease-in-out;
+  -o-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out
+}
+.menu__link:hover {
+  color: #d1a954
+}
 .body {
   font-family: "Open Sans",sans-serif;
   font-style: normal;
@@ -218,5 +279,6 @@ table {
 }
 .container {
   max-width: 1140px;
-  padding: 0 15px
+  padding: 0 15px;
+  margin: 0 auto
 }
