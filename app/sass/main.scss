@@ -1,2 +1,24 @@
 @import "reset";
 @import "variables";
+@import "aside";
+
+.body {
+  font-family: $font-default;
+  font-style: normal;
+  font-weight: 400;
+  color: $color-white;
+}
+
+::-webkit-scrollbar {
+  display:none;
+}
+
+.ul-reset {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+}
+

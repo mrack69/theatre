@@ -1,0 +1,51 @@
+.aside {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 150px;
+  padding-bottom: 86px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+  background: rgba(51, 51, 51, 0.75);
+  &__title {
+    display: inline-block;
+    font-family: $font-condensed;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $color-grey;
+    white-space: nowrap;
+    transform: rotate(-90deg) translateX(50%);
+  }
+  &__line {
+    height: 74px;
+    width: 0;
+    border: 3px solid $color-grey;
+  }
+  &__soclist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    &-link {
+      color: $color-grey;
+      transition: color .3s ease-in-out;
+      &:hover {
+        color: $color-gold;
+        svg path {
+          fill-opacity: 1;
+        }
+      }
+      & svg path{
+        fill: currentColor;
+        fill-opacity: 0.6;
+      }
+    }
+  }
+}
