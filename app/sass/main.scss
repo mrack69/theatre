@@ -3,6 +3,8 @@
 @import "aside";
 @import "header";
 @import "hero";
+@import "about";
+
 
 .body {
   font-family: $font-default;
@@ -24,5 +26,20 @@
   max-width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.title {
+  font-family: $font-condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $color-white;
+  & span {
+    color: $color-gold;
+  }
 }
 
