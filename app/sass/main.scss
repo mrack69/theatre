@@ -2,12 +2,14 @@
 @import "variables";
 @import "aside";
 @import "header";
+@import "hero";
 
 .body {
   font-family: $font-default;
   font-style: normal;
   font-weight: 400;
   color: $color-white;
+  background-color: #333;
 }
 
 ::-webkit-scrollbar {
