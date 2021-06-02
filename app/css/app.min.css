@@ -600,6 +600,21 @@ table {
   font-size: 36px;
   line-height: 150%
 }
+.partners__title {
+  margin-bottom: 100px
+}
+.partners__list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 80px 78px
+}
 .body {
   font-family: "Open Sans",sans-serif;
   font-style: normal;
