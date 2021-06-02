@@ -1,4 +1,7 @@
 .rating {
+  &__title {
+    display: none;
+  }
   &__container {
     margin: 150px 0;
     padding-left: 190px;

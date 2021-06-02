@@ -559,6 +559,9 @@ table {
 .projects__slider-btn:hover {
   background-color: #d3a33b
 }
+.rating__title {
+  display: none
+}
 .rating__container {
   margin: 150px 0;
   padding-left: 190px;
