@@ -1,0 +1,11 @@
+.footer {
+  font-size: 12px;
+  line-height: 150%;
+  color: #989898;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-top: #989898 solid 1px;
+  }
+}
