@@ -25,15 +25,15 @@
     transform: rotate(-90deg) translateX(50%);
   }
   &__line {
-    height: 74px;
+    height: 80px;
     width: 0;
-    border: 3px solid $color-grey;
+    border: 2px solid $color-grey;
   }
   &__soclist {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 28px;
     &-link {
       color: $color-grey;
       transition: color .3s ease-in-out;

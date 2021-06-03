@@ -47,3 +47,14 @@
   }
 }
 
+@media (max-width: 1450px) {
+  .container {
+    max-width: 722px;
+  }
+}
+
+@media (max-width: 950px) {
+  .container {
+    margin-left: 175px;
+  }
+}

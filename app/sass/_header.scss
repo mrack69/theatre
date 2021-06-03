@@ -8,8 +8,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    & nav {
+      width: 100%;
+    }
   }
   &__phone {
+    white-space: nowrap;
     display: inline-block;
     position: relative;
     text-decoration: none;
@@ -23,12 +27,12 @@
     text-transform: uppercase;
     color: $color-white;
     border-bottom: $color-gold solid 2px;
+    margin-left: 168px;
   }
 }
 
 .menu {
-  width: 825px;
-  max-width: 824px;
+  min-width: 824px;
   display: flex;
   justify-content: space-between;
   &__link {
@@ -45,5 +49,19 @@
     &:hover {
       color: $color-gold;
     }
+  }
+}
+
+@media (max-width: 1460px) {
+  .header__container {
+    flex-direction: column;
+    gap: 50px 0;
+  }
+  .menu {
+    min-width: 100%;
+    max-width: none;
+  }
+  .header__phone {
+    margin-left: -75px;
   }
 }

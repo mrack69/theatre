@@ -1,4 +1,5 @@
 .partners {
+  overflow: hidden;
   &__title {
     margin-bottom: 100px;
   }
@@ -7,7 +8,17 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 80px 78px;
-    margin-bottom: 120px;
+    gap: 78px 78px;
+    margin-bottom: 118px;
+  }
+}
+
+@media (max-width: 992px) {
+  .partners > .container {
+    overflow: hidden;
+  }
+  .partners__list {
+    width: 1036px;
+    justify-content: space-between;
   }
 }

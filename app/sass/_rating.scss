@@ -1,4 +1,7 @@
 .rating {
+  background-image: url(./../images/dest/rating_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
   &__title {
     display: none;
   }
@@ -10,10 +13,6 @@
     display: flex;
     align-items: center;
     gap: 122px;
-    background-image: url(./../images/dest/rating_bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   &__date {
     display: flex;
@@ -26,12 +25,34 @@
     text-transform: uppercase;
     color: $color-gold;
   }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
   &__descr {
     max-width: 540px;
-    margin-bottom: 10px;
     font-family: $font-default;
     font-weight: 700;
     font-size: 36px;
     line-height: 150%;
+  }
+  &__stars {
+    width: 230px;
+    height: 24px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1460px) {
+  .rating__container {
+    padding-left: 0;
+    gap: 80px;
+  }
+  .rating__content {
+    margin-bottom: 10px;
+  }
+  .rating__descr {
+    line-height: 140%;
   }
 }

@@ -6,18 +6,23 @@
     display: flex;
     justify-content: space-between;
     gap: 125px;
-    margin-bottom: 80px;
+    margin-bottom: 75px;
   }
   &__info {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     font-family: $font-condensed;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    &-group {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
     & a {
       text-decoration: none;
       color: $color-white;
@@ -53,7 +58,7 @@
     resize: none;
     max-width: 310px;
     height: 100px;
-    padding: 15px;
+    padding: 7px 13px;
     background-color: #444444;
     border-color: #989898;
     color: #989898;
@@ -85,5 +90,27 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: $color-white;
+  }
+}
+
+@media (max-width: 1460px) {
+  .contacts__container {
+    gap: 75px;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+  }
+  .contacts__textarea {
+    max-width: 272px;
+  }
+  .contacts__info {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  .contacts__info-group {
+    align-items: flex-end;
+  }
+  .contacts__info > * {
+    flex-shrink: 0;
   }
 }
