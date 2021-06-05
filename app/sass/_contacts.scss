@@ -156,6 +156,7 @@
 @media (max-width: 575px) {
   .contacts__info {
     flex-wrap: wrap;
+    justify-content: flex-end;
   }
   .contacts__form-group {
     height: auto;

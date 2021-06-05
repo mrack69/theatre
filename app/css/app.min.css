@@ -1187,7 +1187,10 @@ table {
 @media (max-width:575px) {
   .contacts__info {
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
   }
   .contacts__form-group {
     height: auto
