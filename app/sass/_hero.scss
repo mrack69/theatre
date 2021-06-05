@@ -126,3 +126,9 @@
     padding-left: 0;
   }
 }
+
+@media (max-width: 575px) {
+  .hero__title {
+    font-size: 35px;
+  }
+}

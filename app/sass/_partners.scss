@@ -37,3 +37,14 @@
     margin-bottom: 78px;
   }
 }
+
+@media (max-width: 575px) {
+  .partners__item:nth-child(2n) {
+    display: none;
+  }
+  .partners__list {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}

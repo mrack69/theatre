@@ -76,3 +76,8 @@
   }
 }
 
+@media (max-width: 575px) {
+  .rating__date {
+    display: none;
+  }
+}

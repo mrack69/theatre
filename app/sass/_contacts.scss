@@ -152,3 +152,16 @@
     margin-top: 34px;
   }
 }
+
+@media (max-width: 575px) {
+  .contacts__info {
+    flex-wrap: wrap;
+  }
+  .contacts__form-group {
+    height: auto;
+  }
+  .contacts__input {
+    max-width: 100%;
+    width: 100%;
+  }
+}

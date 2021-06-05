@@ -108,3 +108,9 @@
     padding: 0 33px;
   }
 }
+
+@media (max-width: 575px) {
+  .projects {
+    display: none;
+  }
+}
