@@ -83,11 +83,28 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1450px) {
   .projects__slider {
     margin-left: 190px;
   }
   .projects__title {
     margin-left: 87px;
+  }
+}
+
+@media (max-width: 991px) {
+  .projects__slider {
+    margin: 0;
+    padding: 0 39px;
+  }
+  .projects__title {
+    margin-left: 0;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects__slider {
+    padding: 0 33px;
   }
 }

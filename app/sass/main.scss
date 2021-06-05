@@ -27,7 +27,7 @@
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1040px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -49,12 +49,20 @@
 
 @media (max-width: 1450px) {
   .container {
-    max-width: 722px;
+    max-width: 802px;
+    padding: 0 15px 0 95px;
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 991px) {
   .container {
-    margin-left: 175px;
+    max-width: 100%;
+    padding: 0 39px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 33px;
   }
 }

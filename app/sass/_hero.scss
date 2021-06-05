@@ -19,6 +19,7 @@
     margin-bottom: 157px;
   }
   &__title {
+    white-space: nowrap;
     font-family: $font-condensed;
     font-style: normal;
     font-weight: 700;
@@ -101,12 +102,27 @@
   }
 }
 
-@media (max-width: 1460px) {
-  .hero {
-    padding-top: 384px;
-  }
+@media (max-width: 1450px) {
   .slider {
     display: none;
   }
+  .hero {
+    padding-top: 385px;
+  }
 }
 
+@media (max-width: 991px) {
+  .hero {
+    padding-top: 252px;
+    padding-left: 75px;
+    padding-bottom: 95px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding-top: 197px;
+    padding-bottom: 0px;
+    padding-left: 0;
+  }
+}

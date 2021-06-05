@@ -8,17 +8,32 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 78px 78px;
+    gap: 78px 70px;
     margin-bottom: 118px;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1450px) {
   .partners > .container {
     overflow: hidden;
   }
   .partners__list {
     width: 1036px;
     justify-content: space-between;
+  }
+}
+
+@media (max-width: 991px) {
+  .partners__title {
+    margin-bottom: 60px;
+  }
+  .partners__list {
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 767px) {
+  .partners__list {
+    margin-bottom: 78px;
   }
 }
